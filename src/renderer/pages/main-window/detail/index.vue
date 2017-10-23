@@ -65,7 +65,6 @@
 
 <script>
 import {ipcRenderer, shell} from 'electron'
-// import {constant} from '@/constant'
 const path = require('path')
 const fs = require('fs')
 const Zip = require('adm-zip')
@@ -135,10 +134,8 @@ export default {
         return
       }
       this.logs = []
-      console.info('__dirname', __dirname)
       // 源路径
-      const source = '../../../assets/template.zip'
-      // const source = path.join(remote.app.getAppPath(), constant.source)
+      const source = path.join(__static, '/template.zip')
       const zip = new Zip(source)
       const entries = zip.getEntries()
       const len = entries.length

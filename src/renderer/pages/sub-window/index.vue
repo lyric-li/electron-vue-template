@@ -85,31 +85,31 @@ export default {
 
 <style lang="stylus" scoped>
 .app-bar
-  margin-top: -1.8rem
+  margin-top -1.8rem
 .app-drag
-  -webkit-app-region: drag
-  cursor: move
-  height: 5rem
-  line-height: 5rem
-  text-align: center
-  color: #000
-  font-size: .9em
+  -webkit-app-region drag
+  cursor move
+  height 5rem
+  line-height 5rem
+  text-align center
+  color #000
+  font-size .9em
 .app-bar-close
-  color: #5A5E66 !important
+  color #5A5E66 !important
   &:hover
-    color: #FF4949 !important
+    color #FF4949 !important
 .app-bar-btn
-  color: #5A5E66 !important
+  color #5A5E66 !important
 .app-bar-btn-refresh
-  color: #5A5E66 !important
+  color #5A5E66 !important
   &:hover
-    color: #58B7FF !important
+    color #58B7FF !important
 .app-bar-btn-active
-  color: #58B7FF !important
+  color #58B7FF !important
 .app-content
-  width: 100%
-  height: 66rem
+  width 100%
+  height 66rem
 .app-content-webview
-  width: 100%
-  height: 100%
+  width 100%
+  height 100%
 </style>

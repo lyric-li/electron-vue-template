@@ -16,13 +16,12 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
-.app-footer {
-  position: fixed;
-  left: 0;
-  bottom: .8rem;
-  width: 100%;
-  text-align: center;
-  color: #20A0FF;
-}
+<style lang="stylus" scoped>
+.app-footer
+  position fixed
+  left: 0
+  bottom .8rem
+  width 100%
+  text-align center
+  color #20A0FF
 </style>

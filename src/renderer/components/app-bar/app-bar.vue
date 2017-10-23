@@ -31,24 +31,20 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
-.app-bar {
-  -webkit-app-region: drag;
-  cursor: move;
-  text-align: center;
-  .app-drag {
-    color: #fff;
-    font-size: .9em;
-  }
-  .app-bar-close {
-    margin-top: -1.2rem;
-    margin-right: -3.2rem;
-    color: #5A5E66 !important;
-    transition-timing-function: ease;
-    transition-duration: .25s;
-  }
-  .app-bar-close:hover {
-    color: #FF4949 !important;
-  }
-}
+<style lang="stylus" scoped>
+.app-bar
+  -webkit-app-region drag
+  cursor move
+  text-align center
+  .app-drag
+    color #fff
+    font-size .9em
+  .app-bar-close
+    margin-top -1.2rem
+    margin-right -3.2rem
+    color #5A5E66 !important
+    transition-timing-function ease
+    transition-duration .25s
+  .app-bar-close:hover
+    color #FF4949 !important
 </style>
