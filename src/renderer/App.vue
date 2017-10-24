@@ -1,15 +1,5 @@
 <template>
-  <!-- <el-container>
-    <el-header height="25">
-      <app-bar/>
-    </el-header>
-    <el-main> -->
     <router-view></router-view>
-    <!-- </el-main>
-    <el-footer>
-      <app-footer/>
-    </el-footer>
-  </el-container> -->
 </template>
 
 <script>
